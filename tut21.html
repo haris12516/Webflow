@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Allingment</title>
+    <style>
+        *{
+            box-sizing: border-box;
+
+        }
+        .container{
+            width: 900px;
+            background-color: bisque;
+            border: 3px solid black;
+            margin: auto;
+        }
+        .item{
+            border: 3px solid grey;
+            margin: 12px 5px;
+            padding: 12px 5px;
+            background-color: rgb(187, 229, 135);
+        }
+        #fruits{
+            float: left;
+            width: 48%;
+        }
+
+        #computers{
+            float: left;
+            width:48%;
+        }
+        
+        #stationary{
+            float: left;
+            width: 50%;
+            clear: left; 
+        }
+
+        p,h1{
+            text-align: right;
+            text-align: left;
+            text-align: center;
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h3>welcome to my store</h3>
+        <div id="fruits" class="item">
+            <h3>FRUITS</h3>
+            <p id="fruitspara" class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis, non qui sapiente repudiandae ex nostrum numquam dolores iusto perspiciatis, quis illo, hic distinctio ea a explicabo tempora dolorem doloribus error.</p>
+        </div>
+        <div id="computers" class="item">
+            <h3>COMPUTERS</h3>
+            <p id="computerspara" class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis, non qui sapiente repudiandae ex nostrum numquam dolores iusto perspiciatis, quis illo, hic distinctio ea a explicabo tempora dolorem doloribus error.</p>
+        </div>
+        <div id="stationary" class="item">
+            <h3>STATIONARY</h3>
+            <p id="stationarypara" class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis, non qui sapiente repudiandae ex nostrum numquam dolores iusto perspiciatis, quis illo, hic distinctio ea a explicabo tempora dolorem doloribus error.</p>
+        </div>
+    </div>
+    
+</body>
+</html>
